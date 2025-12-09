@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio - Ethereal</title>
+    <link rel="stylesheet" href="styles.css">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&family=Space+Grotesk:wght@400;700&family=Oswald:wght@500;700&display=swap" rel="stylesheet"><body>
+
+    <div class="liquid-background">
+        <div class="orb orb-1"></div>
+        <div class="orb orb-2"></div>
+        <div class="orb orb-3"></div>
+        <div class="orb orb-4"></div>
+        <div class="orb orb-5"></div>
+        
+        <div class="noise-overlay"></div>
+    </div>
+
+    <div class="cursor-dot" data-cursor-dot></div>
+    <div class="cursor-outline" data-cursor-outline></div>
+
+    <nav>
+        <div class="logo hover-trigger">Dylan van Olffen</div>
+        <div class="menu">
+            <a href="#work" class="hover-trigger">Work</a>
+            <a href="#about" class="hover-trigger">About</a>
+            <a href="mailto:dylan.olffen@gmail.com" class="hover-trigger">Contact</a>
+        </div>
+    </nav>
+
+    <main>
+        <section class="hero">
+            <div class="hero-content">
+                <div class="text-container">
+                    <span class="prefix">I AM A</span>
+                    <div class="scramble-text"></div>
+                </div>
+                <p class="fade-in">Communication and multimedia design</p>
+            </div>
+
+            <div class="marquee-container">
+                <div class="marquee-content">
+                    CREATIVE DEVELOPER — UI/UX DESIGNER — INTERACTIVE EXPERIENCES — CREATIVE DEVELOPER — UI/UX DESIGNER — INTERACTIVE EXPERIENCES —
+                </div>
+                <div class="marquee-content" aria-hidden="true">
+                    CREATIVE DEVELOPER — UI/UX DESIGNER — INTERACTIVE EXPERIENCES — CREATIVE DEVELOPER — UI/UX DESIGNER — INTERACTIVE EXPERIENCES —
+                </div>
+            </div>
+        </section>
+
+        <section id="about-me" class="bio-section">
+            <div class="bio-container">
+                
+                <div class="bio-image-wrapper fade-up">
+                    <img src="images/Headshot-1.jpeg" alt="Portrait of Me">
+                    <div class="image-overlay"></div>
+                </div>
+        
+                <div class="bio-content fade-up">
+                    <span class="bio-tag">CURRENTLY STUDYING</span>
+                    <h2 class="bio-title">COMMUNICATION<br>& MULTIMEDIA DESIGN</h2>
+                    
+                    <p class="bio-text">
+                        Hello. I’m a digital creative based in The Netherlands. I'm currently focussing on 
+                        <strong>UI/UX</strong> and <strong>interactive code</strong>.
+                        <br><br>
+                        I design digital experiences that are ready to be built. With a background in Communication and Multimedia Design, I focus on strong visuals and user logic. I understand the technology behind the design, ensuring my concepts are both creative and feasible.
+                    </p>
+        
+                    <div class="bio-stats">
+                        <div class="stat-item">
+                            <span class="label">Focus</span>
+                            <span class="value">UI/UX</span>
+                        </div>
+                        <div class="stat-item">
+                            <span class="label">Toolbox</span>
+                            <span class="value">Figma, Illustrator, AI</span>
+                        </div>
+                    </div>
+                </div>
+        
+            </div>
+        </section>
+        
+
+        <section id="work" class="work-section">
+            <div class="gallery">
+                <div class="project-card fade-up" 
+                data-modal="true" 
+                data-title="Coca Cola Website Redesign" 
+                data-desc="A school project where we had to recreate a website and improve the code. We also had to make the website responsive." 
+                data-tech="CSS, Javascript"
+                data-url="https://dylanvanolffen.github.io/coke/basiswebsite/index.html">
+                
+               <div class="image-wrapper">
+                   <img src="images/coke_icon3.jpg" alt="HCSS Project">
+               </div>
+               <div class="project-details">
+                   <h3>Coca Cola wesbite redesign</h3>
+                   <span>Interactive Web</span>
+               </div>
+           </div>
+                
+           <div class="project-card fade-up" 
+           data-modal="true" 
+           data-title="HCSS Design Rationale" 
+           data-desc="For HCSS we had to make a datastory about a current political conflict. Sadly the website isn't live anymore, however I included our design rationale which in my opinion offers even more insight. " 
+           data-tech="InDesign, Data Viz, PDF"
+           data-url="images/hcssdesignrationale-team1_.pdf"> <div class="image-wrapper">
+              <img src="images/hcss_title2.png" alt="PDF Project Thumbnail">
+          </div>
+          
+          <div class="project-details">
+              <h3>HCSS Design Rationale</h3>
+              <span>Brand Guidelines / PDF</span>
+          </div>
+      </div>
+                
+      <div class="project-card fade-up" 
+      data-modal="true" 
+      data-title="Amsterdam Book Finder" 
+      data-desc="For this project we had to design an ipad app for children to be able to search books for the Gemeente Amsterdam. Made in AdobeXD." 
+      data-tech="UI/UX Design, Prototyping, AdobeXD"
+      data-type="gallery"
+      data-images="images/Boeken_eerste.png, images/Full_Boeken_3.png, images/Full_Boeken_4.png"> 
+      <div class="image-wrapper">
+         <img src="images/Boeken_eerste.png" alt="Boekenzoeker Thumbnail">
+     </div>
+     
+     <div class="project-details">
+         <h3>Boekenzoeker</h3>
+         <span>UI/UX Design</span>
+     </div>
+ </div>
+               
+            </div>
+        </section>
+
+       
+
+        <footer class="mega-footer" id="contact">
+            <div class="footer-content">
+                <h2 class="footer-cta fade-up">
+                    LET'S WORK<br>TOGETHER
+                </h2>
+                
+                <div class="footer-grid fade-up">
+                    <div class="footer-col">
+                        <span class="footer-label">SEND AN EMAIL</span>
+                        <a href="mailto:Dylan.olffen@gmail.com" class="footer-link-large">Dylan.olffen@gmail.com</a>
+                    </div>
+        
+                    <div class="footer-col">
+                        <span class="footer-label">SOCIALS</span>
+                        <div class="footer-links">
+                            <a href="https://www.linkedin.com/in/dylan-van-olffen-08889826b/" class="footer-link">LinkedIn ↗</a>
+                            <a href="https://github.com/DylanVanOlffen" class="footer-link">GitHub ↗</a>
+                        </div>
+                    </div>
+        
+                    <div class="footer-col">
+                        <span class="footer-label">LOCATION</span>
+                        <span class="footer-text">The Netherlands</span>
+                        <div class="live-clock">
+                            <span class="footer-text" id="time-display">00:00</span>
+                            <span class="status-dot"></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        
+            <div class="footer-bottom">
+                <span class="copyright">© 2025 DYLAN VAN OLFFEN</span>
+                <a href="images/CV_2025.pdf" target="_blank" class="resume-btn">DOWNLOAD RESUME ↓</a>
+            </div>
+        </footer>
+    </main>
+
+    <div class="modal-overlay" id="project-modal">
+        <div class="modal-backdrop"></div>
+        
+        <div class="modal-container">
+            <button class="modal-close-btn">&times;</button>
+            
+            <div class="modal-content">
+                <div class="modal-info">
+                    <div class="modal-header">
+                        <span class="modal-tag">INTERACTIVE WEB</span>
+                        <h2 class="modal-title">Project Name</h2>
+                    </div>
+                    
+                    <p class="modal-description">
+                        Project description goes here...
+                    </p>
+                    
+                    <div class="modal-tech-stack">
+                        </div>
+    
+                    <a href="#" target="_blank" class="btn-pill modal-external-btn">Open Fullscreen ↗</a>
+                </div>
+    
+                <div class="modal-preview">
+                    <div class="iframe-loader">Loading Project...</div>
+                    <iframe id="project-iframe" src="" frameborder="0" allowfullscreen></iframe>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
